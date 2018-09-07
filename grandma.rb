@@ -9,15 +9,6 @@ def speak_to_grandma(speech)
   end
 end
 
-def speak_to_grandma(speech)
-  if speech != speech.upcase
-     return "HUH?! SPEAK UP, SONNY!"
-  else speech == speech.upcase
-     return "NO, NOT SINCE 1938!"
-  end
-end
-
-
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
